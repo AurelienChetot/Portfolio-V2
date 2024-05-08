@@ -1,8 +1,16 @@
+//Police import
+@font-face {
+  font-family: "roboto";
+  src: url(./font/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+// Header style
 header {
   background-color: rgb(180, 180, 180);
   height: 250px;
@@ -16,6 +24,7 @@ img {
   width: 400px;
   height: 200px;
 }
+// MenuBurger style
 .sidenav {
   display: flex;
   justify-content: center;
@@ -27,13 +36,18 @@ img {
   right: 0;
   background-color: white;
   padding-top: 10px;
+  border-left: solid 2px black;
 }
 .sidenav a {
+  font-family: "roboto";
+  font-weight: bold;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 1.3rem;
   color: black;
   display: block;
+  text-decoration: underline;
+  text-decoration-color: #426ab2;
 }
 .sidenav a:hover {
   color: rgb(29, 27, 170);
@@ -55,4 +69,179 @@ img {
   right: 0;
   width: 40px;
   height: 40px;
+  cursor: pointer;
+}
+.cursor-menu-close {
+  cursor: pointer;
+}
+// Body style
+body h1,
+h2,
+h3,
+h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-family: "roboto";
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: #426ab2;
+}
+.text-container {
+  display: flex;
+  border-radius: 15px;
+  background: radial-gradient(#ffffff 9%, #b4b4b4 100%);
+  background-position: center;
+  margin: 1rem 1rem;
+  border: solid 3px black;
+}
+.text-container p {
+  text-align: center;
+  font-family: "roboto";
+  font-size: 1.1rem;
+  padding: 10px;
+}
+.hypertext-style {
+  color: #426ab2;
+  font-weight: bold;
+}
+// Skill
+
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  background: radial-gradient(#ffffff 9%, #b4b4b4 100%);
+  margin: 1rem 1rem;
+  border: solid 3px black;
+  padding: 1rem;
+  gap: 15px;
+}
+.text-skill {
+  text-align: center;
+  font-family: "roboto";
+  font-weight: bold;
+}
+.skill-html img {
+  width: 120px;
+  height: 70px;
+}
+.skill-css img {
+  width: 120px;
+  height: 70px;
+}
+.skill-js img {
+  width: 120px;
+  height: 70px;
+}
+.skill-nodeJS img {
+  width: 120px;
+  height: 70px;
+}
+.skill-React img {
+  width: 120px;
+  height: 70px;
+}
+.skill-ThreeJS img {
+  width: 120px;
+  height: 70px;
+}
+.skill-GitHub img {
+  width: 120px;
+  height: 70px;
+}
+.skill-Sass img {
+  width: 120px;
+  height: 70px;
+}
+
+// Parcours
+.parcours-container {
+  border-top: solid 2px black;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.work-container {
+  display: flex;
+  gap: 15px;
+}
+.dev-web-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(#ffffff 9%, #b4b4b4 100%);
+  border-radius: 15px;
+  border: solid 2px black;
+  width: 100%;
+  gap: 15px;
+  margin-top: 20px;
+}
+.dev-web-container img {
+  width: 120px;
+  height: 70px;
+  padding-top: 10px;
+}
+.dev-web-container p {
+  text-align: center;
+  font-family: "roboto";
+  padding: 10px;
+  font-weight: bold;
+}
+.work-texte-style {
+  color: #426ab2;
+  font-weight: bold;
+}
+.work-texte-style1 {
+  color: #f08080;
+  font-weight: bold;
+}
+.diplome-container {
+  border-top: solid 2px black;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+// Footer
+footer {
+  background-color: rgb(180, 180, 180);
+  height: auto;
+  margin-top: 50px;
+  border-top: solid 2px black;
+}
+footer p {
+  margin-top: 10px;
+  font-family: "roboto";
+  text-align: center;
+}
+.footer-text {
+  color: #426ab2;
+  font-weight: bold;
+}
+.img-footer {
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 70px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 355px) {
+  img {
+    width: 300px;
+    height: 200px;
+  }
 }

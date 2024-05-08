@@ -3,7 +3,7 @@ import Logo from "../images/Logo.png";
 import Menu from "../SVG/menu.svg";
 
 function Header() {
-  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [MenuOpen, setMenuOpen] = useState(false);
 
   const openMenu = () => {
     setMenuOpen(true);
@@ -19,14 +19,14 @@ function Header() {
         <div className="logo">
           <img src={Logo} alt="Logo" />
         </div>
-        {isMenuOpen && (
+        {MenuOpen && (
           <div id="mySideNav" className="sidenav">
-            <a href="" className="close" onClick={closeMenu}>
-              ❌
-            </a>
+            <p className="close" onClick={closeMenu}>
+              <span className="cursor-menu-close">❌</span>
+            </p>
             <ul>
               <li>
-                <a href="#">A propos</a>
+                <a href="#">Accueil</a>
               </li>
               <li>
                 <a href="#">Mes projets</a>
@@ -37,7 +37,7 @@ function Header() {
             </ul>
           </div>
         )}
-        <a href="#" id="openBtn" onClick={openMenu}>
+        <a id="openBtn" onClick={openMenu}>
           <span className="burger-icon">
             <img className="menu-svg" src={Menu} alt="menuSvg" />
           </span>
