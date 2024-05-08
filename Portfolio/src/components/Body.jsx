@@ -112,7 +112,7 @@ function Body() {
               <img src={MECA} alt="cars" />
               <p>
                 <span className="work-texte-style1">
-                  Démonteur automobile / mécanicien
+                  Démonteur Automobile / Mécanicien
                 </span>
                 <br /> à la SMAP <br />
                 Décembre 2017 à Août 2023
@@ -123,7 +123,7 @@ function Body() {
             <div className="dev-web-container">
               <img src={FACTORY} alt="factory" />
               <p>
-                <span className="work-texte-style1">
+                <span className="work-texte-style">
                   Agent de <br />
                   Production
                 </span>{" "}
@@ -134,7 +134,7 @@ function Body() {
             <div className="dev-web-container">
               <img src={MECA1} alt="meca" />
               <p>
-                <span className="work-texte-style">mécanicien automobile</span>
+                <span className="work-texte-style1">Mécanicien Automobile</span>
                 <br /> à Renault <br />
                 de Mai 2015 à Septembre 2016
               </p>
@@ -147,7 +147,7 @@ function Body() {
             <img src={DOC} alt="document" />
             <p>
               <span className="work-texte-style">
-                Titre Professionnel
+                Titre Professionnel (équivalent Bac+2)
                 <br /> Developpeur Web / Web Mobile FullStack
               </span>{" "}
               <br /> à la Wild Code School <br />

@@ -33,15 +33,21 @@ img {
   width: 250px;
   position: fixed;
   top: 0;
-  right: 0;
+  right: -250px; /* Cache le menu par défaut */
   background-color: white;
   padding-top: 10px;
   border-left: solid 2px black;
+  transition: right 0.3s ease; /* Ajoute une transition pour l'animation */
 }
+
+.sidenav.active {
+  right: 0; /* Affiche le menu lorsque la classe active est ajoutée */
+}
+
 .sidenav a {
   font-family: "roboto";
   font-weight: bold;
-  padding: 8px 8px 8px 32px;
+  padding: 30px 8px 8px 32px;
   text-decoration: none;
   font-size: 1.3rem;
   color: black;
@@ -50,13 +56,11 @@ img {
   text-decoration-color: #426ab2;
 }
 .sidenav a:hover {
-  color: rgb(29, 27, 170);
+  color: #426ab2;
 }
 .sidenav ul {
   list-style-type: none;
-}
-.sidenav.active {
-  left: 0;
+  margin-top: 50px;
 }
 .sidenav .close {
   position: absolute;
@@ -74,6 +78,7 @@ img {
 .cursor-menu-close {
   cursor: pointer;
 }
+
 // Body style
 body h1,
 h2,
@@ -89,6 +94,7 @@ h1,
 h2,
 h3,
 h4 {
+  color: #3b3b3b;
   text-align: center;
   font-family: "roboto";
   font-size: 1.5rem;
@@ -243,5 +249,38 @@ footer img {
   img {
     width: 300px;
     height: 200px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .burger-icon {
+    display: none;
+  }
+
+  .sidenav {
+    display: flex;
+    position: static;
+    width: auto;
+    background-color: transparent;
+    border-left: none;
+    padding-top: 0;
+  }
+
+  .sidenav.active {
+    display: none;
+  }
+
+  .sidenav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: -200px;
+  }
+
+  .sidenav a {
+    color: #3b3b3b;
+  }
+  .sidenav .close {
+    display: none;
   }
 }
