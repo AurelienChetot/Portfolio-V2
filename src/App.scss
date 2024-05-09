@@ -313,6 +313,12 @@ footer img {
 .slick-next:before {
   color: #426ab2 !important; /* Change la couleur du texte des boutons en rouge */
 }
+.slick-dots li.slick-active button:before {
+  color: #426ab2 !important;
+}
+.slick-dots li button:before {
+  color: #426ab2 !important;
+}
 @media only screen and (max-width: 355px) {
   img {
     width: 300px;
