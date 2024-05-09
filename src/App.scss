@@ -28,7 +28,7 @@ img {
 .sidenav {
   display: flex;
   justify-content: center;
-  z-index: 1;
+  z-index: 2;
   height: 100%;
   width: 250px;
   position: fixed;
@@ -80,6 +80,15 @@ img {
 }
 
 // Body style
+.background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
 body h1,
 h2,
 h3,
@@ -225,6 +234,9 @@ footer {
   height: auto;
   margin-top: 50px;
   border-top: solid 2px black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 footer p {
   margin-top: 10px;
@@ -274,7 +286,7 @@ footer img {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top: -200px;
+    margin-top: -210px;
   }
 
   .sidenav a {

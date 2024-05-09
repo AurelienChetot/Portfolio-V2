@@ -13,10 +13,13 @@ import FACTORY from "../SVG/factory.svg";
 import MECA1 from "../SVG/mecanic1.svg";
 import DOC from "../SVG/document.svg";
 
+import VIDEO from "../videos/background.mp4";
+
 function Body() {
   return (
     <>
       <body>
+        <video className="background-video" src={VIDEO} autoPlay muted loop />
         <h1>À propos de moi :</h1>
         <div className="text-container">
           <p>
