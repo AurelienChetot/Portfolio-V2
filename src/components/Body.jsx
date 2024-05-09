@@ -13,7 +13,7 @@ import FACTORY from "../SVG/factory.svg";
 import MECA1 from "../SVG/mecanic1.svg";
 import DOC from "../SVG/document.svg";
 
-import VIDEO from "../videos/background.mp4";
+import VIDEO from "../videos/background2.mp4";
 
 function Body() {
   return (

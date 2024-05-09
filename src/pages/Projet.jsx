@@ -1,6 +1,6 @@
 import "../App.scss";
 
-import VIDEO from "../videos/background.mp4";
+import VIDEO from "../videos/background2.mp4";
 
 function Projet() {
   return (
