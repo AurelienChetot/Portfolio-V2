@@ -277,15 +277,12 @@ footer img {
 }
 
 .projet-container {
-  display: flex;
-  flex-direction: column;
   border-radius: 15px;
   background: radial-gradient(
     rgba(255, 255, 255, 0.7) 9%,
     rgba(180, 180, 180, 0.8) 100%
   );
   background-position: center;
-  margin: 1rem 1rem;
   margin-top: 50px;
   border: solid 3px black;
 }
@@ -305,10 +302,17 @@ footer img {
 }
 .img-container img {
   height: 200px;
-  width: 300px;
+  width: 90%;
   border-radius: 15px;
 }
-
+.slick-track {
+  display: flex !important;
+  gap: 10px !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #426ab2 !important; /* Change la couleur du texte des boutons en rouge */
+}
 @media only screen and (max-width: 355px) {
   img {
     width: 300px;

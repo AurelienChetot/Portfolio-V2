@@ -1,17 +1,36 @@
-import "../App.scss";
 import PROJET1 from "../images/projet1.gif";
 import PROJET2 from "../images/projet2.gif";
 import COMINGSOON from "../images/comingsoon.gif";
-
 import VIDEO from "../videos/background2.mp4";
 
+import "../App.scss";
+
+//import slider
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function Projet() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 800,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 10000,
+    arrows: true,
+    style: {
+      width: "80%",
+      margin: "0 auto",
+    },
+  };
   return (
     <>
       <body>
         <video className="background-video" src={VIDEO} autoPlay muted loop />
         <h1>Mes Projets :</h1>
-        <div className="">
+        <Slider className="slick-slider" {...settings}>
           <div className="projet-container">
             <h1>Projet 1 Qui?Zip :</h1>
             <div className="img-container">
@@ -74,7 +93,7 @@ function Projet() {
               <br /> <span className="style-text-projet">Aurélien Chetot</span>
             </p>
           </div>
-        </div>
+        </Slider>
       </body>
     </>
   );
