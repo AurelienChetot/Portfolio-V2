@@ -1,5 +1,6 @@
 import VIDEO from "../videos/background2.mp4";
 import CONTACT from "../images/contact.gif";
+import FORMULAIRE from "../images/formulaire.gif";
 
 import PHONE from "../SVG/telephone.svg";
 import EMAIL from "../SVG/mail.svg";
@@ -38,16 +39,13 @@ function Contact() {
           </div>
         </div>
       </div>
+      <h2>Formulaire :</h2>
       <div className="contact-container">
-        <p className="text-projet">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ullam
-          in tempora, perferendis sit voluptate ea vel enim recusandae atque
-          iste saepe. Quia iure atque earum tempore illum natus inventore.
-          Voluptatem error quasi illo, est omnis ab dolores autem odio dolor
-          ipsam! Consequatur maiores aliquam doloribus eos dolorem sint magnam
-          fugit, inventore ipsa commodi dolore, nobis molestiae totam
-          accusantium aliquid?
-        </p>
+        <div className="img-container-contact">
+          {" "}
+          <img className="img-formulaire" src={FORMULAIRE} alt="formulaire" />
+          <p className="text-contact1">EN COURS DE DEVELOPPEMENT</p>
+        </div>
       </div>
     </body>
   );

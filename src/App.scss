@@ -340,7 +340,16 @@ footer img {
   padding: 1rem;
   gap: 15px;
 }
+.img-container img.img-formulaire {
+  height: 200px;
+  width: 90%;
+  border-radius: 15px;
+}
 .img-contact {
+  width: 100%;
+  border-radius: 15px;
+}
+.img-formulaire {
   width: 100%;
   border-radius: 15px;
 }
@@ -388,6 +397,23 @@ footer img {
   flex-direction: column;
   gap: 10px;
   justify-content: center;
+}
+.text-projet {
+  text-align: center;
+  font-family: "roboto";
+  font-size: 0.9rem;
+  padding: 10px;
+  padding-top: 20px;
+}
+.text-contact1 {
+  text-align: center;
+  font-family: "roboto";
+  font-size: 1rem;
+}
+.img-container-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media only screen and (max-width: 355px) {
   img {
