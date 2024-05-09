@@ -35,7 +35,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/Contact">Contact</Link>
           </li>
         </ul>
       </div>
