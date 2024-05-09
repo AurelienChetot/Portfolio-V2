@@ -114,7 +114,10 @@ h4 {
 .text-container {
   display: flex;
   border-radius: 15px;
-  background: radial-gradient(#ffffff 9%, #b4b4b4 100%);
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.7) 9%,
+    rgba(180, 180, 180, 0.5) 100%
+  );
   background-position: center;
   margin: 1rem 1rem;
   border: solid 3px black;
@@ -136,7 +139,10 @@ h4 {
   justify-content: space-around;
   flex-wrap: wrap;
   border-radius: 15px;
-  background: radial-gradient(#ffffff 9%, #b4b4b4 100%);
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.7) 9%,
+    rgba(180, 180, 180, 0.5) 100%
+  );
   margin: 1rem 1rem;
   border: solid 3px black;
   padding: 1rem;
@@ -195,7 +201,10 @@ h4 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: radial-gradient(#ffffff 9%, #b4b4b4 100%);
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.7) 9%,
+    rgba(180, 180, 180, 0.5) 100%
+  );
   border-radius: 15px;
   border: solid 2px black;
   width: 100%;
