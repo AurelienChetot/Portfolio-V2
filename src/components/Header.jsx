@@ -10,6 +10,9 @@ function Header() {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <header>
@@ -22,10 +25,14 @@ function Header() {
         </p>
         <ul>
           <li>
-            <Link to="/">Accueil</Link>
+            <Link to="/" onClick={closeMenu}>
+              Accueil
+            </Link>
           </li>
           <li>
-            <Link to="/Projet">Mes projets</Link>
+            <Link to="/Projet" onClick={closeMenu}>
+              Mes projets
+            </Link>
           </li>
           <li>
             <a href="#">Contact</a>
