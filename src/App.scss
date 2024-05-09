@@ -305,6 +305,11 @@ footer img {
   width: 90%;
   border-radius: 15px;
 }
+.img-container img.img-contact {
+  height: 200px;
+  width: 90%;
+  border-radius: 15px;
+}
 .slick-track {
   display: flex !important;
   gap: 10px !important;
@@ -318,6 +323,71 @@ footer img {
 }
 .slick-dots li button:before {
   color: #426ab2 !important;
+}
+
+// Page Contact
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.7) 9%,
+    rgba(180, 180, 180, 0.8) 100%
+  );
+  margin: 1rem 1rem;
+  border: solid 3px black;
+  padding: 1rem;
+  gap: 15px;
+}
+.img-contact {
+  width: 100%;
+  border-radius: 15px;
+}
+.telephone,
+.location {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 4vh;
+}
+.telephone img {
+  width: 20px;
+}
+.location img {
+  width: 25px;
+}
+.text-contact {
+  font-family: "roboto";
+  font-size: 1rem;
+  padding-left: 10px;
+}
+.span-contact {
+  font-weight: bold;
+  color: #426ab2;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.7) 9%,
+    rgba(180, 180, 180, 0.8) 100%
+  );
+  margin: 1rem 1rem;
+  border: solid 3px black;
+  padding: 1rem;
+  gap: 15px;
+}
+.contact-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
 }
 @media only screen and (max-width: 355px) {
   img {
@@ -359,5 +429,10 @@ footer img {
   }
   .img-container img {
     width: 30%;
+  }
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
