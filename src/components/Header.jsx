@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import Logo from "../images/Logo.png";
 import Menu from "../SVG/menu.svg";
@@ -21,10 +22,10 @@ function Header() {
         </p>
         <ul>
           <li>
-            <a href="#">Accueil</a>
+            <Link to="/">Accueil</Link>
           </li>
           <li>
-            <a href="#">Mes projets</a>
+            <Link to="/Projet">Mes projets</Link>
           </li>
           <li>
             <a href="#">Contact</a>

@@ -33,15 +33,15 @@ img {
   width: 250px;
   position: fixed;
   top: 0;
-  right: -250px; /* Cache le menu par défaut */
+  right: -250px;
   background-color: white;
   padding-top: 10px;
   border-left: solid 2px black;
-  transition: right 0.3s ease; /* Ajoute une transition pour l'animation */
+  transition: right 0.3s ease;
 }
 
 .sidenav.active {
-  right: 0; /* Affiche le menu lorsque la classe active est ajoutée */
+  right: 0;
 }
 
 .sidenav a {
