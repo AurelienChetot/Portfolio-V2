@@ -266,6 +266,49 @@ footer img {
   margin-top: 15px;
 }
 
+// Page Projet
+
+.text-projet {
+  text-align: center;
+  font-family: "roboto";
+  font-size: 0.9rem;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.projet-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.7) 9%,
+    rgba(180, 180, 180, 0.8) 100%
+  );
+  background-position: center;
+  margin: 1rem 1rem;
+  margin-top: 50px;
+  border: solid 3px black;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.style-text-projet {
+  font-weight: bold;
+}
+.text-projet a {
+  font-weight: bold;
+  color: #426ab2;
+}
+.img-container img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+
 @media only screen and (max-width: 355px) {
   img {
     width: 300px;
