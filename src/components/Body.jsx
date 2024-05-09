@@ -3,7 +3,7 @@ import HTML5 from "../SVG/html-5.svg";
 import CSS from "../SVG/css-3.svg";
 import JS from "../SVG/js.svg";
 import NODE from "../SVG/node-js.svg";
-import REACT from "../SVG/React1.svg";
+import REACT from "../SVG/react.svg";
 import THREEJS from "../SVG/three-js.svg";
 import GITHUB from "../SVG/github.svg";
 import SASS from "../SVG/sass.svg";
