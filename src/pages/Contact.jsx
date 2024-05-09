@@ -39,7 +39,9 @@ function Contact() {
           </div>
         </div>
       </div>
-      <h2>Formulaire :</h2>
+      <div className="separator">
+        <h2>Formulaire :</h2>
+      </div>
       <div className="contact-container">
         <div className="img-container-contact">
           {" "}

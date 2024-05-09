@@ -415,6 +415,12 @@ footer img {
   flex-direction: column;
   align-items: center;
 }
+.separator {
+  border-top: solid 2px black;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
 @media only screen and (max-width: 355px) {
   img {
     width: 300px;
