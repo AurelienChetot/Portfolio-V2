@@ -37,6 +37,30 @@ function Contact() {
               Saône 71100
             </p>
           </div>
+          <div className="telephone">
+            <p className="text-github">
+              <span className="span-contact">Mon repo GitHub :</span>{" "}
+              <a
+                className="hypertext-style-contact"
+                href="https://github.com/AurelienChetot"
+                target="_blank"
+              >
+                https://github.com/AurelienChetot
+              </a>
+            </p>
+          </div>
+          <div className="telephone">
+            <p className="text-github">
+              <span className="span-contact">Mon Linkedin :</span>{" "}
+              <a
+                className="hypertext-style-contact"
+                href="https://www.linkedin.com/in/aur%C3%A9lien-chetot-6861852b2/"
+                target="_blank"
+              >
+                https://linkedin.com/AurelienChetot
+              </a>
+            </p>
+          </div>
         </div>
       </div>
       <div className="separator">
