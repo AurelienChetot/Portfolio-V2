@@ -135,7 +135,9 @@ function Body() {
           </div>
         </div>
         <div className="parcours-container">
-          <h3>Mon Parcours professionnel :</h3>
+          <h3>
+            Mon Parcours <br /> professionnel :
+          </h3>
           <div className="work-container">
             <div className="dev-web-container">
               <img src={DEVWEB} alt="computer" />
@@ -151,7 +153,7 @@ function Body() {
               <img src={MECA} alt="cars" />
               <p>
                 <span className="work-texte-style1">
-                  Démonteur Automobile / Mécanicien
+                  Démonteur Automobile / <br /> Mécanicien
                 </span>
                 <br /> à la SMAP <br />
                 Décembre 2017 à Août 2023
@@ -173,7 +175,9 @@ function Body() {
             <div className="dev-web-container">
               <img src={MECA1} alt="meca" />
               <p>
-                <span className="work-texte-style1">Mécanicien Automobile</span>
+                <span className="work-texte-style1">
+                  Mécanicien <br /> Automobile
+                </span>
                 <br /> à Renault <br />
                 de Mai 2015 à Septembre 2016
               </p>
