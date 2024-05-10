@@ -62,10 +62,14 @@ function Projet() {
             <p className="text-projet">
               Pour notre projet Star-Wild, une équipe de quatre personnes a
               relevé le défi de créer une expérience innovante. Avec React.js,
-              Node.js et ThreeJS, nous avons développé une visite du système
-              solaire. Notre collaboration nous a permis de livrer un produit
-              dont nous sommes fiers, tout en renforçant nos compétences en
-              développement web.
+              Node.js et ThreeJS. Nous avons développé une visite du système
+              solaire en 3D grâce à ThreeJs, que nous avons su maîtriser, même
+              si cette compétence ne faisait pas partie du cursus de notre
+              formation initiale. Nous avons choisi d'explorer cette technologie
+              par nous-mêmes et nous avons réussi à la maîtriser avec succès..
+              Notre collaboration nous a permis de livrer un produit dont nous
+              sommes fiers, tout en renforçant nos compétences en développement
+              web.
               <br />{" "}
               <span className="style-text-projet">
                 Retrouvez Star-Wild sur :
