@@ -2,10 +2,6 @@ import VIDEO from "../videos/background2.mp4";
 import CONTACT from "../images/contact.gif";
 import FORMULAIRE from "../images/formulaire.gif";
 
-import PHONE from "../SVG/telephone.svg";
-import EMAIL from "../SVG/mail.svg";
-import LOCALISATION from "../SVG/location.svg";
-
 function Contact() {
   return (
     <body>
@@ -18,20 +14,17 @@ function Contact() {
         </div>
         <div className="contact-column">
           <div className="telephone">
-            <img src={PHONE} alt="phone" />
             <p className="text-contact">
               <span className="span-contact">Téléphone :</span> 06-35-12-91-78
             </p>
           </div>
           <div className="telephone">
-            <img src={EMAIL} alt="email" />
             <p className="text-contact">
               <span className="span-contact">Mail :</span>{" "}
               aurelien.chetot@gmail.com
             </p>
           </div>
           <div className="location">
-            <img src={LOCALISATION} alt="localisation" />
             <p className="text-contact">
               <span className="span-contact">Localisation :</span> Chalon sur
               Saône 71100

@@ -67,9 +67,8 @@ function Projet() {
               si cette compétence ne faisait pas partie du cursus de notre
               formation initiale. Nous avons choisi d'explorer cette technologie
               par nous-mêmes et nous avons réussi à la maîtriser avec succès..
-              Notre collaboration nous a permis de livrer un produit dont nous
-              sommes fiers, tout en renforçant nos compétences en développement
-              web.
+              Notre collaboration nous a permis de livrer un produit, tout en
+              renforçant nos compétences en développement web.
               <br />{" "}
               <span className="style-text-projet">
                 Retrouvez Star-Wild sur :

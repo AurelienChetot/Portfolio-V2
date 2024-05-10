@@ -329,7 +329,7 @@ footer img {
 }
 .slick-prev:before,
 .slick-next:before {
-  color: #426ab2 !important; /* Change la couleur du texte des boutons en rouge */
+  color: #426ab2 !important;
 }
 .slick-dots li.slick-active button:before {
   color: #426ab2 !important;
@@ -383,6 +383,9 @@ footer img {
   width: 25px;
 }
 .text-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   font-family: "roboto";
   font-size: 1rem;
   padding-left: 10px;
@@ -418,7 +421,7 @@ footer img {
 .contact-column {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 21px;
   justify-content: center;
 }
 .text-projet {
