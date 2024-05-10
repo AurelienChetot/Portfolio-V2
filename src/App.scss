@@ -335,6 +335,7 @@ footer img {
 .slick-next:before {
   color: #426ab2 !important;
 }
+
 .slick-dots li.slick-active button:before {
   color: #426ab2 !important;
 }
@@ -516,6 +517,14 @@ footer img {
   }
   .sidenav {
     background: none;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #426ab2 !important;
+    font-size: 68px !important;
+  }
+  .slick-prev {
+    left: -75px !important;
   }
 }
 @media only screen and (min-width: 1937px) {
