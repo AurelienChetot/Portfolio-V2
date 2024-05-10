@@ -47,7 +47,6 @@ img {
 .sidenav a {
   font-family: "roboto";
   font-weight: bold;
-  padding: 30px 8px 8px 32px;
   text-decoration: none;
   font-size: 1.3rem;
   color: black;
@@ -59,6 +58,9 @@ img {
   color: #426ab2;
 }
 .sidenav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   list-style-type: none;
   margin-top: 50px;
 }
@@ -111,6 +113,11 @@ h4 {
   text-decoration: underline;
   text-decoration-color: #426ab2;
 }
+.text-portfolio {
+  text-align: center;
+  font-family: "roboto";
+  font-size: 1.1rem;
+}
 .text-container {
   display: flex;
   justify-content: center;
@@ -127,7 +134,7 @@ h4 {
   text-align: center;
   font-family: "roboto";
   font-size: 1.1rem;
-  padding: 10px;
+  padding: 20px 0px 20px 0px;
 }
 .hypertext-style {
   color: #426ab2;
@@ -448,10 +455,11 @@ footer img {
 
   .sidenav ul {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top: -210px;
+    margin-top: -190px;
   }
 
   .sidenav a {

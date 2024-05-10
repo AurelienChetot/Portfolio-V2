@@ -13,6 +13,8 @@ import FACTORY from "../SVG/factory.svg";
 import MECA1 from "../SVG/mecanic1.svg";
 import DOC from "../SVG/document.svg";
 
+import PORTFOLIO from "../images/portfolio.gif";
+
 import VIDEO from "../videos/background2.mp4";
 
 function Body() {
@@ -20,6 +22,40 @@ function Body() {
     <>
       <body>
         <video className="background-video" src={VIDEO} autoPlay muted loop />
+        <h1>Portfolio :</h1>
+        <div className="contact-container">
+          <div className="img-container-contact">
+            <img className="img-contact" src={PORTFOLIO} alt="Portfolio" />
+          </div>
+          <p className="text-portfolio">
+            <span className="work-texte-style">
+              Bienvenue sur mon portfolio !{" "}
+            </span>
+            <br />
+            <br /> C'est ici que vous découvrirez mon{" "}
+            <span className="work-texte-style">parcours professionnel</span>,
+            <span className="work-texte-style"> mes diplômes</span>,{" "}
+            <span className="work-texte-style"> mes réalisations</span> et
+            comment me <span className="work-texte-style">contacter</span>.{" "}
+            <br /> <br /> Explorez mon expérience professionnelle pour découvrir
+            les <span className="work-texte-style">postes</span> que j'ai
+            occupés et les <span className="work-texte-style">missions</span>{" "}
+            que j'ai menées.
+            <br />
+            <br /> Découvrez mes{" "}
+            <span className="work-texte-style">skills</span>, qui témoignent de
+            mon engagement à enrichir mes compétences et connaissances. <br />
+            <br />
+            Plongez dans mes <span className="work-texte-style">
+              projets
+            </span>{" "}
+            pour avoir un aperçu de mes réalisations et de mes compétences en
+            action. Pour toute question ou proposition, n'hésitez pas à me
+            contacter. <br />
+            <br /> Merci de visiter{" "}
+            <span className="work-texte-style">mon portfolio.</span>
+          </p>
+        </div>
         <h1>À propos de moi :</h1>
         <div className="text-container">
           <p>
