@@ -355,10 +355,12 @@ footer img {
 }
 .img-contact {
   width: 100%;
+  height: auto;
   border-radius: 15px;
 }
 .img-formulaire {
   width: 100%;
+  height: auto;
   border-radius: 15px;
 }
 .telephone,
@@ -410,7 +412,7 @@ footer img {
   text-align: center;
   font-family: "roboto";
   font-size: 0.9rem;
-  padding: 10px;
+  padding: 10px 10% 10px 10%;
   padding-top: 20px;
 }
 .text-contact1 {
@@ -469,7 +471,7 @@ footer img {
     display: none;
   }
   .img-container img {
-    width: 40%;
+    width: 50%;
     height: auto;
   }
   .contact-container {
@@ -489,5 +491,9 @@ footer img {
   }
   .diplome-container {
     width: 30%;
+  }
+  .text-projet {
+    padding: 20px 20% 20px 20%;
+    font-size: 1.2rem;
   }
 }
