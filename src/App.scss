@@ -366,6 +366,7 @@ footer img {
 .img-contact {
   width: 100%;
   height: 250px;
+  border: #426ab2 solid 5px;
   border-radius: 15px;
 }
 .img-formulaire {
@@ -379,7 +380,6 @@ footer img {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  height: 4vh;
 }
 .telephone img {
   width: 20px;
@@ -394,6 +394,7 @@ footer img {
   font-family: "roboto";
   font-size: 1rem;
   padding-left: 10px;
+  padding-right: 10px;
 }
 .text-github {
   display: flex;
@@ -402,6 +403,7 @@ footer img {
   font-family: "roboto";
   font-size: 1rem;
   padding-left: 10px;
+  padding-right: 10px;
 }
 .span-contact {
   font-weight: bold;
@@ -428,6 +430,8 @@ footer img {
   flex-direction: column;
   gap: 21px;
   justify-content: center;
+  border-left: 2px solid;
+  border-right: 2px solid;
 }
 .text-projet {
   text-align: center;
@@ -451,6 +455,14 @@ footer img {
   width: 80%;
   margin: 0 auto;
   margin-top: 50px;
+}
+@media only screen and (max-width: 295px) {
+  .hypertext-style-contact {
+    font-size: 0.7rem;
+  }
+  .text-contact {
+    font-size: 0.9rem;
+  }
 }
 @media only screen and (max-width: 355px) {
   img {
