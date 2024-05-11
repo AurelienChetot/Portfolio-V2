@@ -21,7 +21,12 @@ function Contact() {
           <div className="telephone">
             <p className="text-contact">
               <span className="span-contact">Mail :</span>{" "}
-              aurelien.chetot@gmail.com
+              <a
+                className="hypertext-style-contact"
+                href="mailto:aurelien.chetot@gmail.com"
+              >
+                aurelien.chetot@gmail.com
+              </a>
             </p>
           </div>
           <div className="location">
