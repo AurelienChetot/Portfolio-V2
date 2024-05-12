@@ -5,6 +5,7 @@ import JS from "../SVG/js.svg";
 import NODE from "../SVG/node-js.svg";
 import REACT from "../SVG/react.svg";
 import THREEJS from "../SVG/three-js.svg";
+import GIT from "../SVG/git.svg";
 import GITHUB from "../SVG/github.svg";
 import SASS from "../SVG/sass.svg";
 import DEVWEB from "../SVG/computer.svg";
@@ -113,25 +114,29 @@ function Body() {
             <img src={JS} alt="image JavaScript" />
             <p className="text-skill">JavaScript</p>
           </div>
-          <div className="skill-nodeJS">
-            <img src={NODE} alt="image NodeJs" />
-            <p className="text-skill">NodeJs</p>
-          </div>
           <div className="skill-React">
             <img src={REACT} alt="image React" />
             <p className="text-skill">React</p>
           </div>
-          <div className="skill-ThreeJS">
-            <img src={THREEJS} alt="image ThreeJS" />
-            <p className="text-skill">ThreeJs</p>
+          <div className="skill-nodeJS">
+            <img src={NODE} alt="image NodeJs" />
+            <p className="text-skill">NodeJs</p>
+          </div>
+          <div className="skill-Sass">
+            <img src={SASS} alt="image Sass" />
+            <p className="text-skill">Sass</p>
+          </div>
+          <div className="skill-GitHub">
+            <img src={GIT} alt="image Git" />
+            <p className="text-skill">Git</p>
           </div>
           <div className="skill-GitHub">
             <img src={GITHUB} alt="image GitHub" />
             <p className="text-skill">GitHub</p>
           </div>
-          <div className="skill-Sass">
-            <img src={SASS} alt="image Sass" />
-            <p className="text-skill">Sass</p>
+          <div className="skill-ThreeJS">
+            <img src={THREEJS} alt="image ThreeJS" />
+            <p className="text-skill">ThreeJs</p>
           </div>
         </div>
         <div className="parcours-container">

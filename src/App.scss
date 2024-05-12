@@ -24,6 +24,10 @@ img {
   width: 400px;
   height: 200px;
 }
+.cursor-menu-close img {
+  width: 70px;
+  height: auto;
+}
 // MenuBurger style
 .sidenav {
   display: flex;
@@ -65,11 +69,11 @@ img {
   text-align: center;
   gap: 50px;
   list-style-type: none;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .sidenav .close {
   position: absolute;
-  top: 0;
+  top: -20px;
   right: 10px;
   margin-top: 20px;
   font-size: 25px;
