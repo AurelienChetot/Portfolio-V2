@@ -1,6 +1,7 @@
 import PROJET1 from "../images/projet1.gif";
 import PROJET2 from "../images/projet2.gif";
 import COMINGSOON from "../images/comingsoon.gif";
+import SPLITTER from "../images/splitter.gif";
 import VIDEO from "../videos/background2.mp4";
 
 import "../App.scss";
@@ -79,6 +80,33 @@ function Projet() {
                 <br />
                 <a href="https://star-wild.netlify.app/" target="_blank">
                   Star-Wild
+                </a>
+              </p>
+            </div>
+            <div className="projet-container">
+              <h2>Splitter :</h2>
+              <div className="img-container">
+                <img src={SPLITTER} alt="Splitter" />
+              </div>
+              <p className="text-projet">
+                Pour mon Checkpoint 2 j'ai eu pour mission de faire un programme
+                en HTML, CSS et JavaScript qui permet aux utilisateurs d'entrer
+                le montant total de l'addition et de choisir le pourcentage de
+                pourboire. Ensuite, le script calcule le montant du pourboire
+                par personne en fonction du nombre de personne et affiche
+                également le total de l'addition par personne. Cela permet de
+                diviser équitablement l'addition et le pourboire entre tous les
+                participants.
+                <br />{" "}
+                <span className="style-text-projet">
+                  Retrouvez Splitter sur :
+                </span>
+                <br />
+                <a
+                  href="https://aurelienchetot.github.io/Splitter/"
+                  target="_blank"
+                >
+                  Splitter
                 </a>
               </p>
             </div>
