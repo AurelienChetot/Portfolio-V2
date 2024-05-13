@@ -1,3 +1,4 @@
+<div align ="center">
 <h1 align="center">Welcome to Portefolio A/C 💻 </h1>
 <p align="center">
   <img src="./src/images/Logo.png" alt="Image d'en-tête">
@@ -63,3 +64,5 @@ Si vous souhaitez discuter de projets potentiels, de collaborations ou simplemen
 - Site Web : https://portfolio-aurelienchetot.netlify.app/
 
 N'hésitez pas à explorer mes projets ci-dessus et à me contacter pour toute question ou opportunité de collaboration ! Merci de visiter mon portfolio.
+
+</div>
