@@ -1,12 +1,14 @@
-![Image d'en-tête](./src/images/Logo.png)
+<p align="center">
+  <img src="./src/images/Logo.png" alt="Image d'en-tête">
+</p>
 
-# Portfolio de [Ton Nom]
+# Portfolio de Aurélien CHETOT
 
 Bienvenue sur mon portfolio ! Je suis [Ton Nom], un développeur passionné par [tes intérêts ou spécialités].
 
 ## À propos de moi
 
-Je suis [ta formation], avec une expertise dans [domaines d'expertise]. J'ai travaillé dans diverses entreprises, acquérant une solide expérience dans [parcours professionnel]. Je suis passionné par [ce qui te motive dans ton travail] et je suis toujours à la recherche de nouveaux défis stimulants.
+Je suis en formation de Developpeur Web/Web mobile FullStack. J'ai travaillé dans diverses entreprises, acquérant une solide expérience dans ma vie professionel. Je suis passionné par l'informatique et le developpement et je suis toujours à la recherche de nouveaux défis stimulants.
 
 ## Mes Projets
 
