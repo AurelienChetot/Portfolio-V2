@@ -496,7 +496,7 @@ footer img {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top: -190px;
+    margin-top: 20px;
   }
 
   .sidenav a {
@@ -533,6 +533,7 @@ footer img {
   }
   .sidenav {
     background: none;
+    height: auto;
   }
   .slick-prev:before,
   .slick-next:before {
