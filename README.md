@@ -5,7 +5,7 @@
 
 # Portfolio de Aurélien CHETOT
 
-Bienvenue sur mon portfolio ! Je suis [Ton Nom], un développeur passionné par [tes intérêts ou spécialités].
+Bienvenue sur mon portfolio !
 
 ## À propos de moi
 
