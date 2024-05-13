@@ -1,5 +1,6 @@
 import VIDEO from "../videos/background2.mp4";
 import CONTACT from "../images/contact.gif";
+import CV from "../images/cv.gif";
 import FORMULAIRE from "../images/formulaire.gif";
 
 function Contact() {
@@ -59,6 +60,16 @@ function Contact() {
               </a>
             </p>
           </div>
+        </div>
+      </div>
+      <div className="separator">
+        <h2>CV :</h2>
+      </div>
+      <div className="contact-container">
+        <div className="img-container-contact">
+          {" "}
+          <img className="img-formulaire" src={CV} alt="formulaire" />
+          <p className="text-contact1">EN COURS DE DEVELOPPEMENT</p>
         </div>
       </div>
       <div className="separator">
