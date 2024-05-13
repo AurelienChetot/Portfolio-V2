@@ -11,7 +11,7 @@ Bienvenue sur mon portfolio ! Je suis [Ton Nom], un développeur passionné par 
 
 Je suis en formation de Developpeur Web/Web mobile FullStack. J'ai travaillé dans diverses entreprises, acquérant une solide expérience dans ma vie professionel. Je suis passionné par l'informatique et le developpement et je suis toujours à la recherche de nouveaux défis stimulants.
 
-# [alt text](image-1.png) Dev with:
+# 🌐 Dev with:
 
 [![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
