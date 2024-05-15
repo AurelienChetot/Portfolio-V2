@@ -2,6 +2,7 @@ import { useEffect } from "react";
 
 import VIDEO from "../videos/background2.mp4";
 import CV from "../images/aurelienchetot.png";
+import PDF from "../PDF/aurelienchetot.pdf";
 
 import "../App.scss";
 
@@ -22,11 +23,7 @@ function Cv() {
           Ici vous pouvez <span className="color-cv">télécharger</span> mon CV
           en format <span className="color-cv">PDF</span>
         </p>
-        <a
-          href="/PDF/aurelienchetot.pdf"
-          download="aurelienchetot.pdf"
-          target="_blank"
-        >
+        <a href={PDF} download="aurelienchetot.pdf" target="_blank">
           <button className="btn-dl">Télécharger mon CV</button>
         </a>
       </div>
