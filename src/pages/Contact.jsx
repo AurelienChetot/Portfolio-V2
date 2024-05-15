@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import VIDEO from "../videos/background2.mp4";
 import CONTACT from "../images/contact.gif";
 import CV from "../images/cv.gif";
@@ -38,6 +40,7 @@ function Contact() {
           </div>
           <div className="telephone">
             <p className="text-github">
+              {" "}
               <span className="span-contact">Mon repo GitHub :</span>{" "}
               <a
                 className="hypertext-style-contact"
@@ -69,7 +72,12 @@ function Contact() {
         <div className="img-container-contact">
           {" "}
           <img className="img-formulaire" src={CV} alt="formulaire" />
-          <p className="text-contact1">EN COURS DE DEVELOPPEMENT</p>
+          <div className="btn-container">
+            <Link to="/cv">
+              {" "}
+              <button className="btn-cv">Aller sur mon CV</button>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="separator">

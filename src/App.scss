@@ -460,6 +460,52 @@ footer img {
   margin: 0 auto;
   margin-top: 50px;
 }
+// Page CV
+
+.btn-cv {
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 5px;
+  width: auto;
+  height: auto;
+  border: solid 2px #426ab2;
+  border-radius: 20px;
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.7) 9%,
+    rgba(180, 180, 180, 0.8) 100%
+  );
+  margin-top: 25px;
+}
+.img-cv {
+  width: 100%;
+  height: 90vh;
+  border-radius: 15px;
+}
+.color-cv {
+  color: #426ab2;
+}
+.text-cv {
+  font-family: "roboto";
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+.btn-dl {
+  cursor: pointer;
+  font-family: "roboto";
+  font-size: 1.1rem;
+  padding: 5px;
+  width: auto;
+  height: auto;
+  border: solid 2px #426ab2;
+  border-radius: 20px;
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.7) 9%,
+    rgba(180, 180, 180, 0.8) 100%
+  );
+}
+
 @media only screen and (max-width: 295px) {
   .hypertext-style-contact {
     font-size: 0.7rem;

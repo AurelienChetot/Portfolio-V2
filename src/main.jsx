@@ -1,12 +1,12 @@
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 // Import Pages
 
 import App from "./App";
 import Home from "./pages/Home";
 import Projet from "./pages/Projet";
 import Contact from "./pages/Contact";
+import Cv from "./pages/Cv";
 
 const router = createBrowserRouter([
   {
@@ -17,12 +17,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/Projet",
+        path: "/projet",
         element: <Projet />,
       },
       {
-        path: "/Contact",
+        path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/cv",
+        element: <Cv />,
       },
     ],
   },
