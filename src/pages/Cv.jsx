@@ -23,7 +23,7 @@ function Cv() {
           Ici vous pouvez <span className="color-cv">télécharger</span> mon CV
           en format <span className="color-cv">PDF</span>
         </p>
-        <a href="../PDF/aurelienchetot.pdf" download={PDF} target="_blank">
+        <a href="/PDF/aurelienchetot.pdf" download={PDF} target="_blank">
           <button className="btn-dl">Télécharger mon CV</button>
         </a>
       </div>
