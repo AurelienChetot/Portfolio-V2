@@ -2,6 +2,7 @@ import PROJET1 from "../images/projet1.gif";
 import PROJET2 from "../images/projet2.gif";
 import COMINGSOON from "../images/comingsoon.gif";
 import SPLITTER from "../images/splitter.gif";
+import CODENATURE from "../images/code-nature.gif";
 import VIDEO from "../videos/background2.mp4";
 
 import "../App.scss";
@@ -107,6 +108,31 @@ function Projet() {
                   target="_blank"
                 >
                   Splitter
+                </a>
+              </p>
+            </div>
+            <div className="projet-container">
+              <h2>Code Nature :</h2>
+              <div className="img-container">
+                <img src={CODENATURE} alt="code-nature" />
+              </div>
+              <p className="text-projet">
+                Pendant le ProtoJam, un défi inter-promotionnel, j'ai participé
+                à un projet de développement web. Notre équipe a travaillé
+                ensemble pour créer un site interactif en utilisant React,
+                TailWind. Malgré les contraintes de temps, nous avons livré un
+                site fonctionnel et esthétique. Après le ProtoJam, je vais
+                continué à améliorer le site en ajoutant du contenu et en
+                enrichissant ses fonctionnalités. Cela a été une démonstration
+                de l'importance de la collaboration et du travail d'équipe pour
+                atteindre des objectifs communs dans des délais serrés.
+                <br />{" "}
+                <span className="style-text-projet">
+                  Retrouvez Code-Nature sur :
+                </span>
+                <br />
+                <a href="https://code-nature.netlify.app/" target="_blank">
+                  Code-Nature
                 </a>
               </p>
             </div>
