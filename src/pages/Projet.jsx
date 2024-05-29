@@ -3,6 +3,7 @@ import PROJET2 from "../images/projet2.gif";
 import COMINGSOON from "../images/comingsoon.gif";
 import SPLITTER from "../images/splitter.gif";
 import CODENATURE from "../images/code-nature.gif";
+import DEIAS from "../images/patricia-deias.gif";
 import VIDEO from "../videos/background2.mp4";
 
 import "../App.scss";
@@ -133,6 +134,34 @@ function Projet() {
                 <br />
                 <a href="https://code-nature.netlify.app/" target="_blank">
                   Code-Nature
+                </a>
+              </p>
+            </div>
+            <div className="projet-container">
+              <h2>Site pour un particulier</h2>
+              <div className="img-container">
+                <img src={DEIAS} alt="coming soon" />
+              </div>
+              <p className="text-projet">
+                Au cours de ma formation, j'ai entrepris un projet particulier
+                qui consistait à créer un site web pour un client spécialisé
+                dans l'accompagnement personnel et professionnel. Pour ce
+                projet, j'ai utilisé React et Tailwind, technologies modernes
+                qui permettent de réaliser des interfaces dynamiques et
+                esthétiques. <br />
+                Mon objectif principal était de concevoir un site fonctionnel
+                qui réponde aux besoins spécifiques du client que je suis encore
+                en train de développer, tout en offrant une expérience
+                utilisateur optimale. J'ai travaillé seul sur ce projet, ce qui
+                m'a permis de renforcer mes compétences en développement web et
+                en gestion de projet.
+                <br />{" "}
+                <span className="style-text-projet">
+                  Retrouvez le site sur :
+                </span>{" "}
+                <br />
+                <a href="https://patricia-deias.netlify.app/" target="_blank">
+                  patricia-deias
                 </a>
               </p>
             </div>
