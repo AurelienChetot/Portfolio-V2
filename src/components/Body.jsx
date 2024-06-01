@@ -8,6 +8,9 @@ import THREEJS from "../SVG/three-js.svg";
 import GIT from "../SVG/git.svg";
 import GITHUB from "../SVG/github.svg";
 import SASS from "../SVG/sass.svg";
+import TAILWIND from "../SVG/tailwind.svg";
+import MYSQL from "../SVG/mysql.svg";
+import FIGMA from "../SVG/figma.svg";
 import DEVWEB from "../SVG/computer.svg";
 import MECA from "../SVG/mecanic.svg";
 import FACTORY from "../SVG/factory.svg";
@@ -126,6 +129,14 @@ function Body() {
             <img src={SASS} alt="image Sass" />
             <p className="text-skill">Sass</p>
           </div>
+          <div className="skill-Sass">
+            <img src={TAILWIND} alt="image TailWind" />
+            <p className="text-skill">TailWind</p>
+          </div>
+          <div className="skill-Sass">
+            <img src={MYSQL} alt="image MySQL" />
+            <p className="text-skill">MySQL</p>
+          </div>
           <div className="skill-GitHub">
             <img src={GIT} alt="image Git" />
             <p className="text-skill">Git</p>
@@ -137,6 +148,10 @@ function Body() {
           <div className="skill-ThreeJS">
             <img src={THREEJS} alt="image ThreeJS" />
             <p className="text-skill">ThreeJs</p>
+          </div>
+          <div className="skill-ThreeJS">
+            <img src={FIGMA} alt="image Figma" />
+            <p className="text-skill">Figma</p>
           </div>
         </div>
         <div className="parcours-container">
